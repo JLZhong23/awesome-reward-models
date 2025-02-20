@@ -1,5 +1,3 @@
-# Reward-Model-Survey
-
 <div align="center">
 <h2>
 A Comprehensive Survey of Reward Models:  
@@ -37,13 +35,13 @@ Taxonomy, Usages, Evaluation, and Future
 
 ## Paper List
 
-### Preference Collection
+### 🔍 Preference Collection
 
 #### Human Preference
 
 #### AI Preference
 
-### Reward Modeling
+### 🖥️ Reward Modeling
 
 #### Discriminative Reward
 
@@ -51,11 +49,11 @@ Taxonomy, Usages, Evaluation, and Future
 
 #### Implicit Reward
 
-### Reward Design
+### 📊 Reward Design
 
-### Usage
+### 🛠️ Usage
 
-### Evaluation
+### 💯 Evaluation
 
 #### Benchmarks
 
@@ -73,10 +71,23 @@ Taxonomy, Usages, Evaluation, and Future
 
 ## Resources
 
-### Off-the-Shelf RMs
+### 🤖 Off-the-Shelf RMs
 
-### Datasets
+### 💿 Datasets
 
-### Blogs
+### 🌏 Blogs
+
+### 📚 Prior Survey
+
+* A Survey on Interactive Reinforcement Learning: Design Principles and Open Challenges `2021` [[arxiv](https://arxiv.org/pdf/2105.12949)] 
+* Reinforcement Learning With Human Advice: A Survey `2021` [[Frontiers Robotics AI](https://doi.org/10.3389/frobt.2021.584075)] 
+* AI Alignment: A Comprehensive Survey `2023` [[arxiv](https://arxiv.org/pdf/2310.19852)] 
+* A Survey of Reinforcement Learning from Human Feedback `2023` [[arxiv](https://arxiv.org/pdf/2312.14925)] 
+* Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback `2023` [[TMLR](https://openreview.net/pdf?id=bx24KpJ4Eb)] 
+* Human-in-the-Loop Reinforcement Learning: {A} Survey and Position on Requirements, Challenges, and Opportunities `2024` [[JAIR](https://jair.org/index.php/jair/article/view/15348/27006)]
+* Survey on Large Language Model-Enhanced Reinforcement Learning: Concept, Taxonomy, and Methods `2024` [[arxiv](https://arxiv.org/pdf/2404.00282)]
+* A Comprehensive Survey of LLM Alignment Techniques: RLHF, RLAIF, PPO, DPO and More `2024` [[arxiv](https://arxiv.org/pdf/2407.16216)]
+* Reinforcement Learning Enhanced LLMs: A Survey `2024` [[arxiv](https://arxiv.org/pdf/2412.10400)]
+* Towards a Unified View of Preference Learning for Large Language Models: A Survey `2024` [[arxiv](https://arxiv.org/pdf/2409.02795)]
 
 ## Open Questions
