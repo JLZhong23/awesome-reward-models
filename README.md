@@ -41,11 +41,28 @@ Taxonomy, Usages, Evaluation, and Future
 
 #### AI Preference
 
+* Constitutional AI: Harmlessness from AI Feedback `2022` [[arxiv](https://arxiv.org/pdf/2212.08073)] 
+* RLAIF vs. RLHF: Scaling Reinforcement Learning from Human Feedback with AI Feedback `2024` [[ICML](https://openreview.net/pdf?id=uydQ2W41KO)]
+
 ### 🖥️ Reward Modeling
 
 #### Discriminative Reward
 
 #### Generative Reward
+
+* Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena `2023` [[NeurIPS](https://openreview.net/pdf?id=uccHPGDlao)]
+* Generative Judge for Evaluating Alignment `2024` [[ICLR](https://openreview.net/pdf?id=gtkFw6sZGS)]
+* Prometheus 2: An Open Source Language Model Specialized in Evaluating Other Language Models `2024` [[EMNLP](https://aclanthology.org/2024.emnlp-main.248.pdf)]
+* CompassJudger-1: All-in-one Judge Model Helps Model Evaluation and Evolution `2024` [[arxiv](https://arxiv.org/pdf/2410.16256)] 
+* OffsetBias: Leveraging Debiased Data for Tuning Evaluators `2024` [[EMNLP Findings](https://aclanthology.org/2024.findings-emnlp.57.pdf)] 
+* Meta-Rewarding Language Models: Self-Improving Alignment with LLM-as-a-Meta-Judge `2024` [[arxiv](https://arxiv.org/pdf/2407.19594)]
+* Self-Taught Evaluators `2024` [[arxiv](https://arxiv.org/pdf/2408.02666)]
+* Self-Rewarding Language Models `2024` [[ICML](https://openreview.net/pdf?id=0NphYCmgua)]
+* Direct Judgement Preference Optimization `2024` [[arxiv](https://arxiv.org/pdf/2409.14664)]
+* Generative Reward Models `2024` [[arxiv](https://arxiv.org/pdf/2410.12832)]
+* Generative Verifiers: Reward Modeling as Next-Token Prediction `2024` [[arxiv](https://arxiv.org/pdf/2408.15240)]
+* Beyond Scalar Reward Model: Learning Generative Judge from Preference Data `2024` [[arxiv](https://arxiv.org/pdf/2410.03742)]
+* Improving Large Language Models via Fine-grained Reinforcement Learning with Minimum Editing Constraint `2024` [[ACL Findings](https://aclanthology.org/2024.findings-acl.338.pdf)]
 
 #### Implicit Reward
 
@@ -73,7 +90,22 @@ Taxonomy, Usages, Evaluation, and Future
 
 ### 🤖 Off-the-Shelf RMs
 
+#### RMs
+
+* (Nemotron) Nemotron-4 340B Technical Report `2024` [[arxiv](https://arxiv.org/pdf/2406.11704)]
+* (GRM) Regularizing Hidden States Enables Learning
+Generalizable Reward Model for LLMs `2024` [[NeurIPS](https://openreview.net/pdf?id=jwh9MHEfmY)]
+* (Starling-RM) Starling-7B: Improving Helpfulness and Harmlessness with RLAIF `2024` [[CoLM](https://openreview.net/pdf?id=GqDntYTTbk)]
+* (Skywork-Reward) Skywork-Reward: Bag of Tricks for Reward Modeling in LLMs `2024` [[arxiv](https://arxiv.org/pdf/2410.18451)]
+* (ArmoRM) Interpretable Preferences via Multi-Objective Reward Modeling and Mixture-of-Experts `2024` [[arxiv](https://arxiv.org/pdf/2406.12845)]
+
+#### PRMs
+
+#### General Models
+
 ### 💿 Datasets
+
+* HelpSteer2: Open-source dataset for training top-performing reward models `2024` [[arxiv](https://arxiv.org/pdf/2406.08673)] 
 
 ### 🌏 Blogs
 
