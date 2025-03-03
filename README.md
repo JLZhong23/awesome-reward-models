@@ -46,9 +46,11 @@ Taxonomy, Usages, Evaluation, and Future
 
 ### 🖥️ Reward Modeling
 
-#### Discriminative Reward
+#### Type-Level
 
-#### Generative Reward
+##### Discriminative Reward
+
+##### Generative Reward
 
 * Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena `2023` [[NeurIPS](https://openreview.net/pdf?id=uccHPGDlao)]
 * Generative Judge for Evaluating Alignment `2024` [[ICLR](https://openreview.net/pdf?id=gtkFw6sZGS)]
@@ -64,11 +66,68 @@ Taxonomy, Usages, Evaluation, and Future
 * Beyond Scalar Reward Model: Learning Generative Judge from Preference Data `2024` [[arxiv](https://arxiv.org/pdf/2410.03742)]
 * Improving Large Language Models via Fine-grained Reinforcement Learning with Minimum Editing Constraint `2024` [[ACL Findings](https://aclanthology.org/2024.findings-acl.338.pdf)]
 
-#### Implicit Reward
+##### Implicit Reward
+
+* Direct Preference Optimization: Your Language Model is Secretly a Reward Model `2023` [[NeurIPS](https://openreview.net/pdf?id=HPuSIXJaa9)]
+
+#### Granularity-Level
+
+##### Outcome Reward
+
+##### Process Reward
 
 ### 📊 Reward Design
 
+#### Point-wise
+
+#### Binary
+
+#### Ensemble
+
 ### 🛠️ Usage
+
+#### Utilities
+
+
+
+#### Applications
+
+##### Harmless Dialogue
+
+*Dialogue*
+
+* Constitutional AI: Harmlessness from AI Feedback `2022` [[arxiv](https://arxiv.org/pdf/2212.08073)] 
+* RLAIF vs. RLHF: Scaling Reinforcement Learning from Human Feedback with AI Feedback `2024` [[ICML](https://openreview.net/pdf?id=uydQ2W41KO)]
+* Deliberative Alignment: Reasoning Enables Safer Language Models `2024` [[arxiv](https://arxiv.org/pdf/2412.16339)]
+
+##### Logical Reasoning
+
+*Code*
+
+*Math*
+* Retrieval-Augmented Process Reward Model for Generalizable Mathematical Reasoning `2025` [[arxiv](https://arxiv.org/pdf/2502.14361)]
+
+*QA*
+* 
+
+##### Retrieve & Recommendation
+
+*Retrieve*
+* Enhancing Generative Retrieval with Reinforcement Learning from Relevance Feedback `2023` [[EMNLP](https://aclanthology.org/2023.emnlp-main.768.pdf)]
+* When Search Engine Services meet Large Language Models: Visions and Challenges `2024` [[arxiv](https://arxiv.org/pdf/2407.00128)]
+* Syntriever: How to Train Your Retriever with Synthetic Data from LLMs `2025` [[arxiv](https://arxiv.org/pdf/2502.03824)]
+* RAG-Gym: Optimizing Reasoning and Search Agents with Process Supervision `2025` [[arxiv](https://arxiv.org/pdf/2502.13957)]
+* DeepRAG: Thinking to Retrieval Step by Step for Large Language Models `2025` [[arxiv](https://arxiv.org/pdf/2502.01142)]
+
+*Recommendation*
+* Reinforcement Learning-based Recommender Systems with Large Language Models for State Reward and Action Modeling `2024` [[SIGIR](https://dl.acm.org/doi/pdf/10.1145/3626772.3657767)]
+* RLRF4Rec: Reinforcement Learning from Recsys Feedback for Enhanced Recommendation Reranking `2024` [[arxiv](https://arxiv.org/pdf/2410.05939)]
+* Fine-Tuning Large Language Model Based Explainable Recommendation with Explainable Quality Reward `2025` [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/28777)]
+
+##### Other Applications
+
+*Music*
+* MusicRL: Aligning Music Generation to Human Preferences `2024` [[ICML](https://openreview.net/pdf?id=EruV94XRDs)]
 
 ### 💯 Evaluation
 
@@ -93,8 +152,7 @@ Taxonomy, Usages, Evaluation, and Future
 #### RMs
 
 * (Nemotron) Nemotron-4 340B Technical Report `2024` [[arxiv](https://arxiv.org/pdf/2406.11704)]
-* (GRM) Regularizing Hidden States Enables Learning
-Generalizable Reward Model for LLMs `2024` [[NeurIPS](https://openreview.net/pdf?id=jwh9MHEfmY)]
+* (GRM) Regularizing Hidden States Enables Learning Generalizable Reward Model for LLMs `2024` [[NeurIPS](https://openreview.net/pdf?id=jwh9MHEfmY)]
 * (Starling-RM) Starling-7B: Improving Helpfulness and Harmlessness with RLAIF `2024` [[CoLM](https://openreview.net/pdf?id=GqDntYTTbk)]
 * (Skywork-Reward) Skywork-Reward: Bag of Tricks for Reward Modeling in LLMs `2024` [[arxiv](https://arxiv.org/pdf/2410.18451)]
 * (ArmoRM) Interpretable Preferences via Multi-Objective Reward Modeling and Mixture-of-Experts `2024` [[arxiv](https://arxiv.org/pdf/2406.12845)]
@@ -108,6 +166,9 @@ Generalizable Reward Model for LLMs `2024` [[NeurIPS](https://openreview.net/pdf
 * HelpSteer2: Open-source dataset for training top-performing reward models `2024` [[arxiv](https://arxiv.org/pdf/2406.08673)] 
 
 ### 🌏 Blogs
+
+* Illustrating Reinforcement Learning from Human Feedback (RLHF) [[Link](https://huggingface.co/blog/rlhf)]
+* Why reward models are key for alignment [[Link](https://www.interconnects.ai/p/why-reward-models-matter)]
 
 ### 📚 Prior Survey
 
