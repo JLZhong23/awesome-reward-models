@@ -50,12 +50,16 @@ Taxonomy, Usages, Evaluation, and Future
 
 ##### Discriminative Reward
 
+
+
 ##### Generative Reward
 
 * Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena `2023` [[NeurIPS](https://openreview.net/pdf?id=uccHPGDlao)]
 * Generative Judge for Evaluating Alignment `2024` [[ICLR](https://openreview.net/pdf?id=gtkFw6sZGS)]
 * Prometheus 2: An Open Source Language Model Specialized in Evaluating Other Language Models `2024` [[EMNLP](https://aclanthology.org/2024.emnlp-main.248.pdf)]
 * CompassJudger-1: All-in-one Judge Model Helps Model Evaluation and Evolution `2024` [[arxiv](https://arxiv.org/pdf/2410.16256)] 
+* LLM Critics Help Catch {LLM} Bugs `2024` [[arxiv](https://arxiv.org/pdf/2407.00215)] 
+* LLM Critics Help Catch Bugs in Mathematics: Towards a Better Mathematical Verifier with Natural Language Feedback `2024` [[arxiv](https://arxiv.org/pdf/2406.14024)]
 * OffsetBias: Leveraging Debiased Data for Tuning Evaluators `2024` [[EMNLP Findings](https://aclanthology.org/2024.findings-emnlp.57.pdf)] 
 * Meta-Rewarding Language Models: Self-Improving Alignment with LLM-as-a-Meta-Judge `2024` [[arxiv](https://arxiv.org/pdf/2407.19594)]
 * Self-Taught Evaluators `2024` [[arxiv](https://arxiv.org/pdf/2408.02666)]
@@ -76,41 +80,59 @@ Taxonomy, Usages, Evaluation, and Future
 
 ##### Process Reward
 
-### 📊 Reward Design
+### 🦾 Workflow
 
-#### Point-wise
+#### Prompt Engineering
 
-#### Binary
+#### Trajectory Sampling / Data Synthetic 
 
-#### Ensemble
+#### Policy Training
 
-### 🛠️ Usage
+#### Inference
 
-#### Utilities
+### 📊 Ensemble
 
+#### Reward Ensemble
 
+#### Model Fusion
 
-#### Applications
+### 🛠️ Applications
 
-##### Harmless Dialogue
+#### Harmless Dialogue
 
 *Dialogue*
 
+* Safe RLHF: Safe Reinforcement Learning from Human Feedback
+* Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback `2022` [[arxiv](https://arxiv.org/pdf/2204.05862)] 
 * Constitutional AI: Harmlessness from AI Feedback `2022` [[arxiv](https://arxiv.org/pdf/2212.08073)] 
+* Zhongjing: Enhancing the Chinese Medical Capabilities of Large Language Model through Expert Feedback and Real-world Multi-turn Dialogue `2023` [[arxiv](https://arxiv.org/pdf/2308.03549)]
+* HuatuoGPT, Towards Taming Language Models To Be a Doctor `2023` [[EMNLP Findings](https://aclanthology.org/2023.findings-emnlp.725.pdf)]
+* Empathy Level Alignment via Reinforcement Learning for Empathetic Response Generation `2024` [[arxiv](https://arxiv.org/pdf/2408.02976)]
 * RLAIF vs. RLHF: Scaling Reinforcement Learning from Human Feedback with AI Feedback `2024` [[ICML](https://openreview.net/pdf?id=uydQ2W41KO)]
 * Deliberative Alignment: Reasoning Enables Safer Language Models `2024` [[arxiv](https://arxiv.org/pdf/2412.16339)]
+* Training Dialogue Systems by AI Feedback for Improving Overall Dialogue Impression `2025` [[arxiv](https://arxiv.org/pdf/2501.12698)]
 
-##### Logical Reasoning
-
-*Code*
+#### Logical Reasoning
 
 *Math*
+* Training Verifiers to Solve Math Word Problems `2022` [[arxiv](https://arxiv.org/pdf/2110.14168)]
+* Solving math word problems with process- and outcome-based feedback `2022` [[arxiv](https://arxiv.org/pdf/2211.14275)]
+* WizardMath: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct `2023` [[arxiv](https://arxiv.org/pdf/2308.09583)]
+* Let's Verify Step by Step `2024` [[arxiv](https://openreview.net/pdf?id=v8L0pN6EOi)]
+* DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models `2024` [[arxiv](https://arxiv.org/pdf/2402.03300)]
+* Improve Mathematical Reasoning in Language Models by Automated Process Supervision `2024` [[arxiv](https://arxiv.org/pdf/2406.06592)]
+* Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations `2024` [[ACL](https://aclanthology.org/2024.acl-long.510.pdf)]
+* The Lessons of Developing Process Reward Models in Mathematical Reasoning `2025` [[arxiv](https://arxiv.org/pdf/2501.07301)]
 * Retrieval-Augmented Process Reward Model for Generalizable Mathematical Reasoning `2025` [[arxiv](https://arxiv.org/pdf/2502.14361)]
 
-*QA*
-* 
+*Code*
+* Applying RLAIF for Code Generation with API-usage in Lightweight LLMs `2024` [[arxiv](https://arxiv.org/pdf/2406.20060)]
+* Process Supervision-Guided Policy Optimization for Code Generation `2024` [[arxiv](https://arxiv.org/pdf/2410.17621)]
+* Performance-Aligned LLMs for Generating Fast Code `2024` [[arxiv](https://arxiv.org/pdf/2404.18864)]
+* Policy Filtration in RLHF to Fine-Tune LLM for Code Generation `2024` [[arxiv](https://arxiv.org/pdf/2409.06957)]
+* LLM Critics Help Catch LLM Bugs `2024` [[arxiv](https://arxiv.org/pdf/2407.00215)]
 
-##### Retrieve & Recommendation
+#### Retrieve & Recommendation
 
 *Retrieve*
 * Enhancing Generative Retrieval with Reinforcement Learning from Relevance Feedback `2023` [[EMNLP](https://aclanthology.org/2023.emnlp-main.768.pdf)]
@@ -124,10 +146,31 @@ Taxonomy, Usages, Evaluation, and Future
 * RLRF4Rec: Reinforcement Learning from Recsys Feedback for Enhanced Recommendation Reranking `2024` [[arxiv](https://arxiv.org/pdf/2410.05939)]
 * Fine-Tuning Large Language Model Based Explainable Recommendation with Explainable Quality Reward `2025` [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/28777)]
 
-##### Other Applications
+#### Other Applications
 
-*Music*
+*Text to Audio*
 * MusicRL: Aligning Music Generation to Human Preferences `2024` [[ICML](https://openreview.net/pdf?id=EruV94XRDs)]
+* BATON: Aligning Text-to-Audio Model Using Human Preference Feedback `2024` [[IJCAI](https://www.ijcai.org/proceedings/2024/0502.pdf)]
+* Reinforcement Learning for Fine-tuning Text-to-speech Diffusion Models `2024` [[arxiv](https://arxiv.org/pdf/2405.14632)]
+
+*Text to Image*
+* Aligning Text-to-Image Models using Human Feedback `2023` [[arxiv](https://arxiv.org/pdf/2302.12192)]
+* ImageReward: Learning and Evaluating Human Preferences for Text-to-Image Generation `2023` [[NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2023/file/33646ef0ed554145eab65f6250fab0c9-Paper-Conference.pdf)]
+* DPOK: Reinforcement Learning for Fine-tuning Text-to-Image Diffusion Models] `2023` [[arxiv](https://arxiv.org/pdf/2305.16381)]
+
+*Text to Video*
+* InstructVideo: Instructing Video Diffusion Models with Human Feedback `2024` [[CVPR](https://openaccess.thecvf.com/content/CVPR2024/papers/Yuan_InstructVideo_Instructing_Video_Diffusion_Models_with_Human_Feedback_CVPR_2024_paper.pdf)]
+* Boosting Text-to-Video Generative Model with MLLMs Feedback `2024` [[NeurIPS](https://openreview.net/pdf/4c9eebaad669788792e0a010be4031be5bdc426e.pdf)]
+* Harness Local Rewards for Global Benefits: Effective Text-to-Video Generation Alignment with Patch-level Reward Models `2025` [[arxiv](https://arxiv.org/pdf/2502.06812)]
+
+*Robotic*
+* Text2Reward: Reward Shaping with Language Models for Reinforcement Learning `2024` [[ICLR](https://openreview.net/pdf?id=tUM39YTRxH)]
+* Vision-Language Models are Zero-Shot Reward Models for Reinforcement Learning `2024` [[ICLR](https://openreview.net/pdf?id=N0I2RtD8je)]
+
+*Game*
+* DIP-RL: Demonstration-Inferred Preference Learning in Minecraft `2025` [[arxiv](https://arxiv.org/pdf/2307.12158)]
+* Process Reward Models for LLM Agents: Practical Framework and Directions `2025` [[arxiv](https://arxiv.org/pdf/2502.10325)]
+
 
 ### 💯 Evaluation
 
@@ -144,6 +187,8 @@ Taxonomy, Usages, Evaluation, and Future
 * PRMBench: A Fine-grained and Challenging Benchmark for Process-Level Reward Models `2025` [[arxiv](https://arxiv.org/pdf/2501.03124)]
 
 #### Analysis
+
+The Accuracy Paradox in RLHF: When Better Reward Models Don’t Yield Better Language Models
 
 ## Resources
 
