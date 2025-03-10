@@ -39,6 +39,23 @@ Taxonomy, Usages, Evaluation, and Future
 
 #### Human Preference
 
+* Deep Reinforcement Learning from Human Preferences `2017` [[NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2017/file/d5e2c0adad503c91f91df240d0cd4e49-Paper.pdf)]
+* Batch Active Preference-Based Learning of Reward Functions `2018` [[CoRL](https://proceedings.mlr.press/v87/biyik18a/biyik18a.pdf)]
+* Reward learning from human preferences and demonstrations in Atari `2018` [[NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2018/file/8cbe9ce23f42628c98f80fa0fac8b19a-Paper.pdf)]
+* Active Preference-Based Gaussian Process Regression for Reward Learning `2020` [[RSS](https://www.roboticsproceedings.org/rss16/p041.pdf)]
+* Information Directed Reward Learning for Reinforcement Learning `2021` [[NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2021/file/1fa6269f58898f0e809575c9a48747ef-Paper.pdf)]
+* PEBBLE: Feedback-Efficient Interactive Reinforcement Learning via Relabeling Experience and Unsupervised Pre-training `2021` [[ICML](https://proceedings.mlr.press/v139/lee21i/lee21i.pdf)]
+* Improving alignment of dialogue agents via targeted human judgements `2022` [[arxiv](https://arxiv.org/pdf/2209.14375)]
+* Training language models to follow instructions with human feedback `2022` [[NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2022/file/b1efde53be364a73914f58805a001731-Paper-Conference.pdf)]
+* Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback `2022` [[arxiv](https://arxiv.org/pdf/2204.05862)] 
+* Active Reward Learning from Multiple Teachers `2023` [[AAAI Workshop](https://ceur-ws.org/Vol-3381/48.pdf)] 
+* RLHF-Blender: A Configurable Interactive Interface for Learning from Diverse Human Feedback `2023` [[ICML Workshop](https://openreview.net/pdf?id=JvkZtzJBFQ)] 
+* Sequential Preference Ranking for Efficient Reinforcement Learning from Human Feedback `2023` [[NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2023/file/99766cda865be123d55a1d9666c7b9fc-Paper-Conference.pdf)]
+* Uni-RLHF: Universal Platform and Benchmark Suite for Reinforcement Learning with Diverse Human Feedback `2024` [[ICLR](https://openreview.net/pdf?id=WesY0H9ghM)] 
+* HelpSteer2: Open-source dataset for training top-performing reward models `2024` [[arxiv](https://arxiv.org/pdf/2406.08673)] 
+* Batch Active Learning of Reward Functions from Human Preferences `2024` [[arxiv](https://arxiv.org/pdf/2402.15757)] 
+* RLHF Workflow: From Reward Modeling to Online RLHF `2024` [[TMLR](https://openreview.net/pdf?id=a13aYUU9eU)] 
+
 #### AI Preference
 
 * Constitutional AI: Harmlessness from AI Feedback `2022` [[arxiv](https://arxiv.org/pdf/2212.08073)] 
@@ -79,6 +96,7 @@ Taxonomy, Usages, Evaluation, and Future
 ##### Outcome Reward
 
 ##### Process Reward
+
 
 ### 🦾 Workflow
 
@@ -164,7 +182,7 @@ Taxonomy, Usages, Evaluation, and Future
 * Harness Local Rewards for Global Benefits: Effective Text-to-Video Generation Alignment with Patch-level Reward Models `2025` [[arxiv](https://arxiv.org/pdf/2502.06812)]
 
 *Robotic*
-* Text2Reward: Reward Shaping with Language Models for Reinforcement Learning `2024` [[ICLR](https://openreview.net/pdf?id=tUM39YTRxH)]
+* (x) Text2Reward: Reward Shaping with Language Models for Reinforcement Learning `2024` [[ICLR](https://openreview.net/pdf?id=tUM39YTRxH)]
 * Vision-Language Models are Zero-Shot Reward Models for Reinforcement Learning `2024` [[ICLR](https://openreview.net/pdf?id=N0I2RtD8je)]
 
 *Game*
@@ -183,8 +201,10 @@ Taxonomy, Usages, Evaluation, and Future
 * How to Evaluate Reward Models for RLHF `2024` [[arxiv](https://arxiv.org/pdf/2410.14872)] [[Leaderboard](https://huggingface.co/spaces/lmarena-ai/preference-proxy-evaluations)]
 * ProcessBench: Identifying Process Errors in Mathematical Reasoning `2024` [[arxiv](https://arxiv.org/pdf/2412.06559)]
 * RAG-RewardBench: Benchmarking Reward Models in Retrieval Augmented Generation for Preference Alignment `2024` [[arxiv](https://arxiv.org/pdf/2412.13746)]
+* M-RewardBench: Evaluating Reward Models in Multilingual Settings `2024` [[arxiv](https://arxiv.org/abs/2410.15522)]
 * MJ-Bench: Is Your Multimodal Reward Model Really a Good Judge for Text-to-Image Generation? `2024` [[arxiv](https://arxiv.org/pdf/2407.04842)] [[Leaderboard](https://huggingface.co/spaces/MJ-Bench/MJ-Bench-Leaderboard)]
 * PRMBench: A Fine-grained and Challenging Benchmark for Process-Level Reward Models `2025` [[arxiv](https://arxiv.org/pdf/2501.03124)]
+* Multimodal RewardBench: Holistic Evaluation of Reward Models for Vision Language Models `2025` [[arxiv](https://arxiv.org/abs/2502.14191)]
 
 #### Analysis
 
