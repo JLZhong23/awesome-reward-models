@@ -110,8 +110,29 @@ Taxonomy, Usages, Applications, and Future
 ##### Implicit Reward
 
 * Direct Preference Optimization: Your Language Model is Secretly a Reward Model `2023` [[NeurIPS](https://openreview.net/pdf?id=HPuSIXJaa9)]
-
-TBD
+* SLiC-HF: Sequence Likelihood Calibration with Human Feedback `2023` [[arxiv](https://arxiv.org/pdf/2305.10425)]
+* A General Theoretical Paradigm to Understand Learning from Human Preferences `2023` [[arxiv](https://arxiv.org/pdf/2310.12036)]
+* A Minimaximalist Approach to Reinforcement Learning from Human Feedback `2024` [[ICML](https://openreview.net/pdf?id=5kVgd2MwMY)]
+* Smaug: Fixing Failure Modes of Preference Optimisation with DPO-Positive `2024` [[arxiv](https://arxiv.org/pdf/2402.13228)]
+* From $r$ to $Q^*$: Your Language Model is Secretly a Q-Function `2024` [[COLM](https://openreview.net/pdf?id=kEVcNxtqXk)]
+* Step-DPO: Step-wise Preference Optimization for Long-chain Reasoning of LLMs `2024` [[arxiv](https://arxiv.org/pdf/2406.18629)]
+* Token-level Direct Preference Optimization `2024` [[ICML](https://openreview.net/pdf?id=1RZKuvqYCR)]
+* $β$-DPO: Direct Preference Optimization with Dynamic $β$ `2024` [[NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2024/file/ea888178abdb6fc233226d12321d754f-Paper-Conference.pdf)]
+* Generalized Preference Optimization: A Unified Approach to Offline Alignment `2024` [[ICML](https://openreview.net/pdf?id=gu3nacA9AH)]
+* Contrastive Preference Optimization: Pushing the Boundaries of LLM `2024` [[ICML](https://openreview.net/pdf?id=51iwkioZpn)]
+* Offline Regularised Reinforcement Learning for Large Language Models Alignment `2024` [[arxiv](https://arxiv.org/pdf/2405.19107)]
+* Direct Nash Optimization: Teaching Language Models to Self-Improve with General Preferences `2024` [[arxiv](https://arxiv.org/pdf/2404.03715)]
+* ORPO: Monolithic Preference Optimization without Reference Model `2024` [[EMNLP](https://aclanthology.org/2024.emnlp-main.626.pdf)]
+* Mixed Preference Optimization: A Two-stage Reinforcement Learning with Human Feedbacks `2024` [[arxiv](https://arxiv.org/pdf/2403.19443)]
+* LiPO: Listwise Preference Optimization through Learning-to-Rank `2024` [[arxiv](https://arxiv.org/pdf/2402.01878)]
+* Noise Contrastive Alignment of Language Models with Explicit Rewards `2024` [[NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2024/file/d5a58d198afa370a3dff0e1ca4fe1802-Paper-Conference.pdf)]
+* SimPO: Simple Preference Optimization with a Reference-Free Reward `2024` [[NeurIPS](https://openreview.net/pdf?id=3Tzcot1LKb)]
+* Direct Preference Optimization with an Offset `2024` [[ACL Findings](https://aclanthology.org/2024.findings-acl.592.pdf)]
+* Statistical Rejection Sampling Improves Preference Optimization `2024` [[ICLR](https://openreview.net/pdf?id=xbjSwwrQOe)]
+* sDPO: Don’t Use Your Data All at Once `2025` [[COLING Industry](https://aclanthology.org/2025.coling-industry.31.pdf)]
+* Towards Robust Alignment of Language Models: Distributionally Robustifying Direct Preference Optimization `2025` [[ICLR](https://openreview.net/pdf?id=CbfsKHiWEn)]
+* Self-Play Preference Optimization for Language Model Alignment `2025` [[ICLR](https://openreview.net/pdf?id=a3PmRgAB5T)]
+* TIS-DPO: Token-level Importance Sampling for Direct Preference Optimization With Estimated Weights `2025` [[ICLR](https://openreview.net/pdf?id=oF6e2WwxX0)]
 
 #### Granularity-Level
 
@@ -144,6 +165,7 @@ TBD
 * RRHF: Rank Responses to Align Language Models with Human Feedback without tears `2023` [[NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2023/file/23e6f78bdec844a9f7b6c957de2aae91-Paper-Conference.pdf)]
 * Reinforced Self-Training (ReST) for Language Modeling `2023` [[arxiv](https://arxiv.org/pdf/2308.08998)]
 * Iterative Reasoning Preference Optimization `2024` [[NeruIPS](https://openreview.net/pdf?id=4XIKfvNYvx)]
+* Filtered Direct Preference Optimization `2024` [[EMNLP](https://aclanthology.org/2024.emnlp-main.1266.pdf)]
 
 #### Policy Training
 
@@ -291,7 +313,7 @@ TBD
 
 #### Evaluation
 
-* An Empirical Study of LLM-as-a-Judge for {LLM} Evaluation: Fine-tuned Judge Models are Task-specific Classifiers `2024` [[arxiv](https://arxiv.org/pdf/2403.02839)] 
+* An Empirical Study of LLM-as-a-Judge for LLM Evaluation: Fine-tuned Judge Models are Task-specific Classifiers `2024` [[arxiv](https://arxiv.org/pdf/2403.02839)] 
 * OffsetBias: Leveraging Debiased Data for Tuning Evaluators `2024` [[EMNLP Findings](https://aclanthology.org/2024.findings-emnlp.57.pdf)] 
 * Preference Leakage: A Contamination Problem in LLM-as-a-judge `2025` [[arxiv](https://arxiv.org/pdf/2502.01534)]
 
@@ -301,7 +323,10 @@ TBD
 * Helping or Herding? Reward Model Ensembles Mitigate but do not Eliminate Reward Hacking `2024` [[COLM](https://openreview.net/pdf?id=5u1GpUkKtG)]
 * Rethinking Bradley-Terry Models in Preference-Based Reward Modeling: Foundations, Theory, and Alternatives `2024` [[arxiv](https://arxiv.org/pdf/2411.04991)]
 * RLHF Deciphered: A Critical Analysis of Reinforcement Learning from Human Feedback for LLMs `2024` [[arxiv](https://arxiv.org/pdf/2404.08555)]
+* Towards Analyzing and Understanding the Limitations of DPO: A Theoretical Perspective `2024` [[arxiv](https://arxiv.org/pdf/2404.04626)]
+* Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study `2024` [[ICML](https://openreview.net/forum?id=6XH8R7YrSk)]
 * Rethinking Reward Model Evaluation: Are We Barking up the Wrong Tree? `2025` [[ICLR](https://openreview.net/pdf/7aa9cdaa8ae2a1fe57278fed0f70bed213ce9381.pdf)]
+* All Roads Lead to Likelihood: The Value of Reinforcement Learning in Fine-Tuning `2025` [[arxiv](https://arxiv.org/pdf/2503.01067)]
 
 ## Resources
 
@@ -318,7 +343,7 @@ TBD
 * AI Alignment: A Comprehensive Survey `2023` [[arxiv](https://arxiv.org/pdf/2310.19852)] 
 * A Survey of Reinforcement Learning from Human Feedback `2023` [[arxiv](https://arxiv.org/pdf/2312.14925)] 
 * Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback `2023` [[TMLR](https://openreview.net/pdf?id=bx24KpJ4Eb)] 
-* Human-in-the-Loop Reinforcement Learning: {A} Survey and Position on Requirements, Challenges, and Opportunities `2024` [[JAIR](https://jair.org/index.php/jair/article/view/15348/27006)]
+* Human-in-the-Loop Reinforcement Learning: A Survey and Position on Requirements, Challenges, and Opportunities `2024` [[JAIR](https://jair.org/index.php/jair/article/view/15348/27006)]
 * Survey on Large Language Model-Enhanced Reinforcement Learning: Concept, Taxonomy, and Methods `2024` [[arxiv](https://arxiv.org/pdf/2404.00282)]
 * A Survey on Human Preference Learning for Large Language Models `2024` [[arxiv](https://arxiv.org/pdf/2406.11191)]
 * A Comprehensive Survey of LLM Alignment Techniques: RLHF, RLAIF, PPO, DPO and More `2024` [[arxiv](https://arxiv.org/pdf/2407.16216)]
