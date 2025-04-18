@@ -32,6 +32,9 @@ Taxonomy, Usages, Applications, and Future
 <div align="center">
 <sup>4</sup>Ant Group
 </div>
+<div align="center">
+[<a href="https://arxiv.org/abs/2504.12328">arxiv</a>]
+</div>
 
 ## Paper List
 
@@ -283,7 +286,7 @@ TBD
 * PRMBench: A Fine-grained and Challenging Benchmark for Process-Level Reward Models `2025` [[arxiv](https://arxiv.org/pdf/2501.03124)]
 * Multimodal RewardBench: Holistic Evaluation of Reward Models for Vision Language Models `2025` [[arxiv](https://arxiv.org/abs/2502.14191)]
 
-### Challenges
+### 🤺 Challenges
 
 #### Data
 
