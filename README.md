@@ -36,6 +36,8 @@ Taxonomy, Usages, Applications, and Future
 [<a href="https://arxiv.org/abs/2504.12328">arxiv</a>]
 </div>
 
+😄 Welcome to recommend missing papers through **`Issues`** and **`Pull Requests`**. 
+
 ## Paper List
 
 ### 🔍 Preference Collection
@@ -159,6 +161,8 @@ TBD
 * Rewarding Progress: Scaling Automated Process Verifiers for LLM Reasoning `2025` [[ICLR](https://openreview.net/pdf?id=A6Y7AqlzLW)]
 * Process Reinforcement through Implicit Rewards `2025` [[arxiv](https://arxiv.org/pdf/2502.01456)]
 * The Lessons of Developing Process Reward Models in Mathematical Reasoning `2025` [[arxiv](https://arxiv.org/pdf/2501.07301)]
+* AdaptiveStep: Automatically Dividing Reasoning Step through Model Confidence `2025` [[arxiv](https://arxiv.org/pdf/2502.13943)]
+* Better Process Supervision with Bi-directional Rewarding Signals `2025` [[arxiv](https://arxiv.org/pdf/2503.04618)]
 
 ### 🦾 Usages
 
