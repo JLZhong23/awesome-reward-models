@@ -1,8 +1,8 @@
 <div align="center">
 <h2>
-A Comprehensive Survey of Reward Models:  
-
-Taxonomy, Usages, Applications, and Future
+A Comprehensive Survey of Reward Models: 
+  
+Taxonomy, Applications, Challenges, and Future
 </h2>
 </div>
 
