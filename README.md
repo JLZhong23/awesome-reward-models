@@ -290,6 +290,7 @@ TBD
 * MJ-Bench: Is Your Multimodal Reward Model Really a Good Judge for Text-to-Image Generation? `2024` [[arxiv](https://arxiv.org/pdf/2407.04842)] [[Leaderboard](https://huggingface.co/spaces/MJ-Bench/MJ-Bench-Leaderboard)]
 * PRMBench: A Fine-grained and Challenging Benchmark for Process-Level Reward Models `2025` [[arxiv](https://arxiv.org/pdf/2501.03124)]
 * Multimodal RewardBench: Holistic Evaluation of Reward Models for Vision Language Models `2025` [[arxiv](https://arxiv.org/abs/2502.14191)]
+* VLRMBench: A Comprehensive and Challenging Benchmark for Vision-Language Reward Models `2025` [[arxiv](https://arxiv.org/pdf/2503.07478)]
 
 ### 🤺 Challenges
 
