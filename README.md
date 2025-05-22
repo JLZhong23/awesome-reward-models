@@ -164,6 +164,8 @@ TBD
 * The Lessons of Developing Process Reward Models in Mathematical Reasoning `2025` [[arxiv](https://arxiv.org/pdf/2501.07301)]
 * AdaptiveStep: Automatically Dividing Reasoning Step through Model Confidence `2025` [[arxiv](https://arxiv.org/pdf/2502.13943)]
 * Better Process Supervision with Bi-directional Rewarding Signals `2025` [[arxiv](https://arxiv.org/pdf/2503.04618)]
+* An Efficient and Precise Training Data Construction Framework for Process-supervised Reward Model in Mathematical Reasoning `2025` [[arxiv](https://www.arxiv.org/pdf/2503.02382)]
+* VersaPRM: Multi-Domain Process Reward Model via Synthetic Reasoning Data `2025` [[arxiv](https://arxiv.org/pdf/2502.06737)]
 
 ### 🦾 Usages
 
@@ -336,6 +338,7 @@ TBD
 * Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study `2024` [[ICML](https://openreview.net/forum?id=6XH8R7YrSk)]
 * Rethinking Reward Model Evaluation: Are We Barking up the Wrong Tree? `2025` [[ICLR](https://openreview.net/pdf/7aa9cdaa8ae2a1fe57278fed0f70bed213ce9381.pdf)]
 * All Roads Lead to Likelihood: The Value of Reinforcement Learning in Fine-Tuning `2025` [[arxiv](https://arxiv.org/pdf/2503.01067)]
+* Reward Models Identify Consistency, Not Causality `2025` [[arxiv](https://arxiv.org/pdf/2502.14619)]
 
 ## Resources
 
