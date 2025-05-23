@@ -67,6 +67,7 @@ Taxonomy, Applications, Challenges, and Future
 * Towards Comprehensive Preference Data Collection for Reward Modeling `2024` [[arxiv](https://arxiv.org/pdf/2406.16486)]
 * Preference Fine-Tuning of LLMs Should Leverage Suboptimal, On-Policy Data `2024` [[arxiv](https://openreview.net/pdf?id=bWNPx6t0sF)]
 * Less is More: Improving LLM Alignment via Preference Data Selection `2025` [[arxiv](https://arxiv.org/pdf/2502.14560)]
+* RLTHF: Targeted Human Feedback for LLM Alignment `2025` [[arxiv](https://arxiv.org/pdf/2502.13417)]
 
 #### AI Preference
 
