@@ -340,6 +340,7 @@ TBD
 * Rethinking Reward Model Evaluation: Are We Barking up the Wrong Tree? `2025` [[ICLR](https://openreview.net/pdf/7aa9cdaa8ae2a1fe57278fed0f70bed213ce9381.pdf)]
 * All Roads Lead to Likelihood: The Value of Reinforcement Learning in Fine-Tuning `2025` [[arxiv](https://arxiv.org/pdf/2503.01067)]
 * Reward Models Identify Consistency, Not Causality `2025` [[arxiv](https://arxiv.org/pdf/2502.14619)]
+* What Are Step-Level Reward Models Rewarding? Counterintuitive Findings from MCTS-boosted Mathematical Reasoning `2025` [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/34663/36818)]
 
 ## Resources
 
