@@ -81,6 +81,8 @@ Taxonomy, Applications, Challenges, and Future
 * Self-Generated Critiques Boost Reward Modeling for Language Models `2024` [[arxiv](https://arxiv.org/pdf/2411.16646)]
 * Safer-Instruct: Aligning Language Models with Automated Preference Data `2024` [[NAACL](https://aclanthology.org/2024.naacl-long.422.pdf)]
 * Negating Negatives: Alignment with Human Negative Samples via Distributional Dispreference Optimization `2024` [[EMNLP Findings](https://aclanthology.org/2024.findings-emnlp.56.pdf)]
+* RLCD: Reinforcement Learning from Contrastive Distillation for LM Alignment `2024` [[ICLR](https://openreview.net/pdf?id=v3XXtxWKi6)]
+* RMBoost: Reward Model Training With Preference-Conditional Multi-Aspect Synthetic Data Generation `2025` [[ICLR Workshop](https://openreview.net/pdf?id=pcehmKPjX5)]
 * Interpreting Language Model Preferences Through the Lens of Decision Trees `2025` [[Online](https://rlhflow.github.io/posts/2025-01-22-decision-tree-reward-model/)]
 
 ### 🖥️ Reward Modeling
