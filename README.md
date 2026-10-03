@@ -183,6 +183,7 @@ TBD
 
 #### Policy Training
 
+* TagPR: Tag-Guided Process Supervision for Personalization Reasoning in Large Language Models `2026` [[EMNLP](https://arxiv.org/abs/2509.23140)]
 * Fine-Grained Human Feedback Gives Better Rewards for Language Model Training `2023` [[NeurIPS](https://papers.neurips.cc/paper_files/paper/2023/file/b8c90b65739ae8417e61eadb521f63d5-Paper-Conference.pdf)]
 * Aligning Crowd Feedback via Distributional Preference Reward modeling `2024` [[arxiv](https://arxiv.org/pdf/2402.09764)]
 * Reward-Robust RLHF in LLMs `2024` [[arxiv](https://arxiv.org/pdf/2409.15360)]
