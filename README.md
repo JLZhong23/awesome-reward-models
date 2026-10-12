@@ -352,6 +352,7 @@ TBD
 * Illustrating Reinforcement Learning from Human Feedback (RLHF) [[Link](https://huggingface.co/blog/rlhf)]
 * Why reward models are key for alignment [[Link](https://www.interconnects.ai/p/why-reward-models-matter)]
 * Reward Hacking in Reinforcement Learning [[Link](https://lilianweng.github.io/posts/2024-11-28-reward-hacking/)]
+* Consequence models: AI that knows what happens next (calibrated, outcome-trained verifiers for agent actions) [[Link](https://scaledthought.com/blog/consequence-models)]
 
 ### 📚 Prior Survey
 
